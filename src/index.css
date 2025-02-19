@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+@import "tailwindcss";
+
+@theme {
+    --font-quick: "Quicksand", "serif";
+}
+
+.shadow-std {
+    box-shadow: -1px 3px 2px 0px rgba(100, 116, 139, 0.25);
+}
+.img-sizes {
+    width: 125px;
+    height: 167px;
+}
+.gap-50px {
+    gap: 50px;
+}
+.border-rose-500-3 {
+    border: 1px solid rgba(251, 113, 133, 0.3);
+}
+.color-rose-500-3 {
+    color: rgba(251, 113, 133, 0.3);
+}
+.text-14 {
+    font-size: 14px;
+}
