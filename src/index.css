@@ -10,10 +10,10 @@
 .shadow-std {
     box-shadow: -1px 3px 2px 0px rgba(100, 116, 139, 0.25);
 }
-.img-sizes {
-    width: 125px;
-    height: 167px;
+.top-400px {
+    top:400px;
 }
+
 .gap-50px {
     gap: 50px;
 }
@@ -26,3 +26,7 @@
 .text-14 {
     font-size: 14px;
 }
+.user-select {
+    user-select: none;
+}
+
