@@ -11,9 +11,9 @@ function App() {
     <>
     <Header />
     <MainPage />
-    <Cards />
-    <Pricing />
-    <Contacts />
+    <Cards /> 
+    <Pricing /> 
+    <Contacts /> 
     </>
   )
 }
