@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+@import "tailwindcss";
+
+@theme {
+    --font-quick: "Quicksand", "serif";
+}
+
+:root {
+    --border: rgba(251, 113, 133, 0.3);
+}
+
+.shadow-std {
+    box-shadow: -1px 3px 2px 0px rgba(100, 116, 139, 0.25);
+}
+
+.top-400px {
+    top: 400px;
+}
+
+.gap-50px {
+    gap: 50px;
+}
+
+.border-rose-500-3 {
+    border: 1px solid var(--border);
+}
+
+.border-b-rose-500-3 {
+    border-bottom: 1px solid var(--border);
+}
+
+.color-rose-500-3 {
+    color: var(--border);
+}
+
+.text-14 {
+    font-size: 14px;
+}
+
+.user-select {
+    user-select: none;
+}
+
+.main_page_button {
+    @apply px-4 py-2.5 rounded-full md:text-xl hover:scale-105 duration-300 cursor-pointer;
+}
+
+.pricingPlans {
+    @apply w-max py-1 px-2 mb-2 rounded-full duration-300 hover:scale-105 lg:mb-3 lg:text-xl;
+}
+
+.mobileLink {
+    @apply text-stone-950 font-bold text-xl text-center mb-3;
+}
+.desktopLink {
+    @apply text-orange-100 font-bold text-xl py-3 px-10 hover:bg-rose-500 hover:rounded-full ease-in-out duration-300;
+}
